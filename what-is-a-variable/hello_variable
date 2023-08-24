@@ -2,4 +2,14 @@
 
 # Welcome to your first Bash Script
 
-echo 'Hello World!'
+var="Hello, World!"
+echo $var
+
+readonly pi=3.14
+echo $pi
+
+current_files=$(ls)
+echo "Your current dir has the following files: ${current_files}"
+
+timestamp=$(date)
+echo "Current timestamp is $timestamp"
